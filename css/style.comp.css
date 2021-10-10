@@ -42,11 +42,17 @@ img {
       letter-spacing: 0.1px;
       font-weight: 800;
       color: rgba(255, 215, 0, 0.6); }
+      @media only screen and (max-width: 37em) {
+        .top__words--heading {
+          font-size: 3rem; } }
     .top__words--intro {
       font-size: 2.4rem;
       color: #7f7f7f;
       font-weight: 100;
       overflow: visible; }
+      @media only screen and (max-width: 37em) {
+        .top__words--intro {
+          font-size: 1.8rem; } }
   .top__pictures {
     grid-column: picture-start / picture-end;
     grid-row: 1 / -1;
