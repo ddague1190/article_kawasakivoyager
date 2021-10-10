@@ -1,0 +1,40 @@
+body {
+  font-size: 1.6rem;
+  font-family: $font-primary;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin: 6rem auto 2rem auto;
+  font-size: 2rem;
+  position: relative;
+  text-align: center;
+  color: rgba(#333, 0.2);
+
+  &::after {
+    content: "";
+    background-color: currentColor;
+    position: absolute;
+    width: 30%;
+    height: 0.2rem;
+    bottom: 50%;
+    right: 0;
+  }
+  &::before {
+    content: "";
+    background-color: currentColor;
+    position: absolute;
+    width: 30%;
+    height: 0.2rem;
+    bottom: 50%;
+    left: 0;
+  }
+}
+
+upper {
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 2rem;
+}

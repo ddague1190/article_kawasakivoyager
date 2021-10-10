@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  @include respond(tablet) {
+    font-size: 56.25%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+}
