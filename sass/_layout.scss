@@ -58,12 +58,19 @@ img {
       letter-spacing: 0.1px;
       font-weight: 800;
       color: rgba(gold, 0.6);
+
+      @include respond(small-phone) {
+        font-size: 3rem;
+      }
     }
     &--intro {
       font-size: 2.4rem;
       color: darken($color-primary, 40%);
       font-weight: 100;
       overflow: visible;
+      @include respond(small-phone) {
+        font-size: 1.8rem;
+      }
     }
   }
 
